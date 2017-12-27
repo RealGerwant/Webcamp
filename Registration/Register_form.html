@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Registration</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+</head>
+
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  <h1>Register</h1>
+  <form class="register" action="https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna" method="get">
+
+    <label for="fN">First Name: </label>
+    <input id="fN" type="text" name="firstname" required>
+    <label for="lN">Last Name: </label>
+    <input id="lN" type="text" name="secondname" required>
+    <p></p>
+    <label for="Male">Male </label>
+    <input id="Male" type="radio" name="sex" value="m">
+    <label for="Female">Female</label>
+    <input id="Female" type="radio" name="sex" value="f">
+    <label for="Other">Other</label>
+    <input id="Other" type="radio" name="sex" value="o">
+    <p></p>
+    <label for="email">Email: </label>
+    <input id="email" type="email" name="email" required>
+    <label for="password">Password: </label>
+    <input id="password" type="password" name="password" required>
+    <p></p>
+    <label for="brth">Brithday: </label>
+    <select id="brth" class="" name="month" required>
+      <option value="" disabled selected>month</option>
+      <option value="">January</option>
+      <option value="">February</option>
+    </select>
+    <select class="" name="day" required>
+      <option value=""disabled selected >day</option>
+      <option value="">1</option>
+      <option value="">2</option>
+      <option value="">3</option>
+      <option value="">4</option>
+    </select>
+    <select class="" name="year" required>
+      <option value="" disabled selected>year</option>
+      <option value="">1997</option>
+      <option value="">1998</option>
+    </select>
+    <p></p>
+    <label for="terms">I agree to the terms and conditions </label>
+    <input type="checkbox" name="" value="" required>
+
+    <p></p>
+    <input type="submit" name="" value="Submit">
+  </form>
+</body>
+
+</html>
